@@ -10,6 +10,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: var(--light-gray);
+}
 .attribution{ 
     font-size: 11px; text-align: center;
 }
