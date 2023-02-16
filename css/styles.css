@@ -34,6 +34,7 @@ body{
     border-radius: 20px;
     text-align: center;
     box-shadow: 0 0 1rem #d5dce4;
+    border: 3px solid #d5dce4;
 }
 .container img{
     width: 100%;
