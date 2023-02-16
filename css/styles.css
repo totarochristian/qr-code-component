@@ -43,10 +43,12 @@ body{
     font-size: var(--font-size-h1);
     font-weight: 700;
     color: var(--dark-blue);
+    margin-top: 0.3rem;
     margin-bottom: 1rem;
 }
 .container p{
     font-size: var(--font-size-p);
     font-weight: 400;
     color: var(--grayish-blue);
+    margin-bottom: 0.5rem;
 }
