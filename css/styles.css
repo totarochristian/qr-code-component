@@ -16,6 +16,7 @@ body{
 .container{
     width: 315px;
     background-color: var(--white);
+    padding: 1rem;
 }
 .center-element{
     position: absolute;
