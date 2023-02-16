@@ -4,8 +4,8 @@
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
-    --font-size-h1: 22px;
-    --font-size-p: 15px;
+    --font-size-h1: 1.35rem;
+    --font-size-p: 0.95rem;
 }
 /********************* Reset *********************/
 *{
