@@ -5,7 +5,11 @@
     --dark-blue: hsl(218, 44%, 22%);
     --font-size-p: 15px;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .attribution{ 
     font-size: 11px; text-align: center;
 }
