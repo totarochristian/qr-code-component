@@ -12,6 +12,7 @@
 }
 body{
     background-color: var(--light-gray);
+    font-family: 'Outfit', sans-serif;
 }
 .container{
     width: 315px;
