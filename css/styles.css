@@ -1,3 +1,4 @@
+/********************* Root variables *********************/
 :root{
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
@@ -5,21 +6,19 @@
     --dark-blue: hsl(218, 44%, 22%);
     --font-size-p: 15px;
 }
+/********************* Reset *********************/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/********************* General *********************/
 body{
     background-color: var(--light-gray);
     font-family: 'Outfit', sans-serif;
 }
-.container{
-    width: 315px;
-    background-color: var(--white);
+.padding-1rem{
     padding: 1rem;
-    border-radius: 20px;
-    text-align: center;
 }
 .center-element{
     position: absolute;
@@ -27,7 +26,18 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/********************* Main classes *********************/
+.container{
+    width: 315px;
+    background-color: var(--white);
+    border-radius: 20px;
+    text-align: center;
+}
 .container img{
     width: 100%;
     border-radius: 10px;
+}
+.container p{
+    font-size: var(--font-size-p);
+    color: var(--grayish-blue);
 }
