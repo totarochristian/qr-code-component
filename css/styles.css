@@ -4,7 +4,7 @@
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
-    --font-size-h1: 20px;
+    --font-size-h1: 22px;
     --font-size-p: 15px;
 }
 /********************* Reset *********************/
@@ -40,9 +40,11 @@ body{
 }
 .container h1{
     font-size: var(--font-size-h1);
+    font-weight: 700;
     color: var(--dark-blue);
 }
 .container p{
     font-size: var(--font-size-p);
+    font-weight: 400;
     color: var(--grayish-blue);
 }
