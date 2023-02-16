@@ -17,6 +17,7 @@ body{
     width: 315px;
     background-color: var(--white);
     padding: 1rem;
+    border-radius: 20px;
 }
 .center-element{
     position: absolute;
@@ -26,4 +27,5 @@ body{
 }
 .container img{
     width: 100%;
+    border-radius: 10px;
 }
