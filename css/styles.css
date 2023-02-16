@@ -33,7 +33,7 @@ body{
     background-color: var(--white);
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0 0 1rem #d5dce4;
+    box-shadow: 0 15px 2rem #c9d0d8;
 }
 .container img{
     width: 100%;
